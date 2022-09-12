@@ -62,26 +62,6 @@ public class dynamicControlPage {
         System.out.println("text box is displayed :"+tb2);
 
 
-
-/*
-
-        // explicit wait for the message
-        wait.until(ExpectedConditions.visibilityOf(message));
-        // wait.until(ExpectedConditions.visibilityOf(ADD_BUTTON));
-
-        addButton.click();
-        wait.until(ExpectedConditions.visibilityOf(removeButton));
-
-        enableButton.click();
-        wait.until(ExpectedConditions.visibilityOf(message));
-
-        boolean eb = textBox.isEnabled();
-        System.out.println(eb);
-
-        disableButton.click();
-        wait.until(ExpectedConditions.elementToBeClickable(enableButton));
-
-*/
     }
 
 }

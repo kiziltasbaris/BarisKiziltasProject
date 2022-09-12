@@ -13,6 +13,8 @@ public class dynamicContentPage {
     public void dynamicContentMethod()
     {
 
+        Driver.getDriver().navigate().refresh();
+
 
 
 
